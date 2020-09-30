@@ -26,7 +26,7 @@ MainWindow::~MainWindow()
 
 
 
-//I.FUCK.KARPOV.EVERYDAY
+//I
 
 
 
@@ -69,7 +69,7 @@ void MainWindow::on_korobka_logica_currentIndexChanged(int index)
 
     case 4: ui->Jnaj2->setVisible(1);
         if ((ui->korobka_logica->currentIndex() == 4) && (ui->Jnaj1->currentIndex() == ui->Jnaj2->currentIndex())) { // A == B = 1
-            pal.setColor(QPalette::Window,Qt::green); //green
+            pal.setColor(QPalette::Window,Qt::green); //green //Fuck
         } else pal.setColor(QPalette::Window,Qt::red); //red
         break;
 
@@ -83,6 +83,10 @@ void MainWindow::on_korobka_logica_currentIndexChanged(int index)
     ui->centralWidget->setAutoFillBackground(true);
     ui->centralWidget->setPalette(pal);
 }
+
+
+
+
 
 void MainWindow::on_Jnaj1_currentIndexChanged(int index)
 {
@@ -176,6 +180,10 @@ void MainWindow::on_Jnaj1_currentIndexChanged(int index)
 
 }
 
+
+//My
+
+
 void MainWindow::on_Jnaj2_currentIndexChanged(int index)
 {
     QPalette pal;
@@ -255,6 +263,9 @@ void MainWindow::on_Jnaj2_currentIndexChanged(int index)
         }
         break;
     }
+
+
+//EveryDay
 
     ui->centralWidget->setAutoFillBackground(true);
     ui->centralWidget->setPalette(pal);
