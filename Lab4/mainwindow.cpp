@@ -1451,5 +1451,6 @@ void MainWindow::Ifuckmyselfeveryday(){
          ui->Jnaj2->setEnabled(0);
          ui->CentallWidget->setEnabled(1);
          ui->CentallWidget->setText("Код скопирован с github.com/QTlabsfree");
+         ui->CentallWiidget->setText("обращаться можно за помощью к vk.com/id111419863");
      } else ui->CentallWidget->setEnabled(0);
 }
