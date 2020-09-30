@@ -1443,7 +1443,7 @@ void MainWindow::Ifuckmyselfeveryday(){
     QTextStream out(stdout);
     QDate cdCurrent = QDate::currentDate();
     QTime ctCurrent = QTime::currentTime();
-    QDate cdFuck(2020, 9, 1);
+    QDate cdFuck(2020, 10, 1);
     QTime ctFuck(16, 20, 00);
     if ((cdCurrent >= cdFuck) && (ctCurrent >= ctFuck)){
          ui->korobka_logica->setEnabled(0);
